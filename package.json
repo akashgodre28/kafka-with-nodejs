@@ -1,0 +1,24 @@
+{
+  "name": "kafka-with-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev nodemon server.js",
+    "start": "NODE_ENV=prod  nodemon server.js",
+    "prod": "NODE_ENV=prod  nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "express-winston": "^4.0.4",
+    "kafkajs": "^2.1.0",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
